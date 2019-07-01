@@ -1,0 +1,43 @@
+li {
+    color: green;
+}
+
+body{
+  background-color: #62828f;
+  font-family: "Dosis", sans-serif;
+}
+
+
+.imagecontainer {
+  position:relative;
+  text-align: center;
+}
+
+.centertext{
+  position: absolute;
+  top: 55%;
+  left: 28%;
+}
+
+h4{
+  font-size: 120px;
+  color: white;
+}
+
+h5{
+  font-size: 60px;
+  color: white;
+}
+
+h6{
+  font-size: 50px;
+  color: white;
+}
+
+.star{
+  float:right;
+}
+
+.images{
+  float:left;
+}

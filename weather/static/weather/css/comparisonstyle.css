@@ -1,0 +1,45 @@
+body{
+  background-color: #62828f;
+  font-family: "Dosis", sans-serif;
+}
+
+.line{
+  width: 420px;
+  height:100px;
+  border-bottom: 5px groove white;
+  position: absolute;
+}
+
+.square {
+  height: 250px;
+  width: 250px;
+  background-color: #bac8c9;
+  border-radius: 20px;
+  box-shadow: 5px -5px #c7aeb4;
+  position:relative;
+}
+
+.weathericon{
+  position: absolute;
+  top: 40%;
+  left:45%;
+  height: 200px;
+}
+
+.weathertext{
+  position: absolute;
+  top: 6%;
+  left: 6%;
+  color: white;
+}
+
+.warning{
+  position: absolute;
+  top: -10%;
+  right: -5%;
+  z-index:2;
+}
+
+h6{
+  font-size: 40px;
+}

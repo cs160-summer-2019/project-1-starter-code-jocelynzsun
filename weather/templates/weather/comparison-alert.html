@@ -6,10 +6,101 @@
 	<title>Comparison - Alert!</title>
 	
 	<link rel="stylesheet" type="text/css" href="{% static 'weather/vendors/bootstrap/css/bootstrap.css' %}" />
-	<link rel="stylesheet" type="text/css" href="{% static 'weather/css/style.css' %}" />
+	<link rel="stylesheet" type="text/css" href="{% static 'weather/css/comparisonstyle.css' %}" />
+  <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
+
 
 </head>
 <body>
 	<!-- your comparison interface with alert here -->
+  <div class="container">
+    <div class="row" style="padding-top:200px">
+      <div class="col-sm-7 offset-sm-1">
+        <div class="line"> 
+        </div>
+      </div>
+      <div class="col-sm-2 offset-sm-1">
+        <img class="img-fluid" src="/static/weather/assets/icons8-drop-down-100.png" style="width=300px;">
+      </div>
+    </div>
+    
+    <div class="row" style="padding-top:150px;">
+      <div class="col-sm-4 offset-sm-1">
+        <div class="square">
+          <div class="weathertext">
+            <h6>
+              Berkeley
+            </h6>
+          </div>
+          <div class="weathericon">
+            <img class="img-fluid" src="/static/weather/assets/icons8-sun-80.png">
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 offset-sm-2">
+        <div class="square">
+          <div class="warning">
+            <img class="img-fluid" src="/static/weather/assets/icons8-error-filled-100.png">
+          </div>
+          <div class="weathertext">
+            <h6>
+              San Jose
+            </h6>
+          </div>
+          <div class="weathericon">
+            <img class="img-fluid" src="/static/weather/assets/icons8-cloudshot-80.png">
+          </div>
+        </div>
+        
+        
+      </div>
+    </div>
+    
+     <div class="row" style="padding-top:100px;">
+      <div class="col-sm-4 offset-sm-1">
+        <div class="square">
+          <div class="weathertext">
+            <h6>
+              Los Angeles
+            </h6>
+          </div>
+          <div class="weathericon">
+            <img class="img-fluid" src="/static/weather/assets/icons8-sun-80.png">
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 offset-sm-2">
+        <div class="square">
+          <div class="weathertext">
+            <h6>
+              San Diego
+            </h6>
+          </div>
+          <div class="weathericon">
+            <img class="img-fluid" src="/static/weather/assets/icons8-partly-cloudy-day-80.png">
+          </div>
+        </div>
+  </div>
+  
+  
+  
+  
+  
+  <div class="container">
+    <div class="row" style="padding-top:700px">
+      <div class="col-sm-3">
+        <img class="img-fluid" src="/static/weather/assets/icons8-home-96.png" style="width:150px">
+      </div>
+      <div class="col-sm-3">
+        <img class="img-fluid" src="/static/weather/assets/icons8-search-96.png" style="width:150px">
+      </div>
+      <div class="col-sm-3">
+        <img class="img-fluid" src="/static/weather/assets/icons8-venn-diagram-96.png" style="width:150px">
+        </div>
+      <div class="col-sm-3">
+        <img class="img-fluid" src="/static/weather/assets/icons8-gear-96.png" style="width:150px">
+      </div>
+     </div>
+  </div>
 </body>
 </html>
